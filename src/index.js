@@ -24,6 +24,7 @@ const pick = require('lodash/pick');
 const result = require('lodash/result');
 const size = require('lodash/size');
 const some = require('lodash/some');
+const sortBy = require('lodash/sortBy');
 const uniqueId = require('lodash/uniqueId');
 
 // Don't use `export default {...}` because `lodash` uses `require(...)`
