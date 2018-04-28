@@ -8,6 +8,7 @@ var defaults = require('lodash/defaults');
 var each = require('lodash/each');
 var _escape = require('lodash/escape');
 var extend = require('lodash/extend');
+var groupBy = require('lodash/groupBy');
 var has = require('lodash/has');
 var invoke = require('lodash/invoke');
 var isArray = require('lodash/isArray');
@@ -18,6 +19,7 @@ var isObject = require('lodash/isObject');
 var isRegExp = require('lodash/isRegExp');
 var isString = require('lodash/isString');
 var iteratee = require('lodash/iteratee');
+var keyBy = require('lodash/keyBy');
 var keys = require('lodash/keys');
 var map = require('lodash/map');
 var matches = require('lodash/matches');
@@ -40,6 +42,7 @@ module.exports = {
   each: each,
   'escape': _escape, // escape is a protected var
   extend: extend,
+  groupBy: groupBy,
   has: has,
   invoke: invoke,
   isArray: isArray,
@@ -50,6 +53,7 @@ module.exports = {
   isRegExp: isRegExp,
   isString: isString,
   iteratee: iteratee,
+  keyBy: keyBy,
   keys: keys,
   map: map,
   matches: matches,

@@ -6,6 +6,7 @@ const defaults = require('lodash/defaults');
 const each = require('lodash/each');
 const _escape = require('lodash/escape');
 const extend = require('lodash/extend');
+const groupBy = require('lodash/groupBy');
 const has = require('lodash/has');
 const invoke = require('lodash/invoke');
 const isArray = require('lodash/isArray');
@@ -16,6 +17,7 @@ const isObject = require('lodash/isObject');
 const isRegExp = require('lodash/isRegExp');
 const isString = require('lodash/isString');
 const iteratee = require('lodash/iteratee');
+const keyBy = require('lodash/keyBy');
 const keys = require('lodash/keys');
 const map = require('lodash/map');
 const matches = require('lodash/matches');
@@ -38,6 +40,7 @@ module.exports = {
   each,
   'escape': _escape, // escape is a protected var
   extend,
+  groupBy,
   has,
   invoke,
   isArray,
@@ -48,6 +51,7 @@ module.exports = {
   isRegExp,
   isString,
   iteratee,
+  keyBy,
   keys,
   map,
   matches,
