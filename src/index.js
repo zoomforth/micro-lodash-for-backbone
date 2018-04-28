@@ -1,33 +1,33 @@
-import bind from 'lodash/bind';
-import bindAll from 'lodash/bindAll';
-import clone from 'lodash/clone';
-import create from 'lodash/create';
-import defaults from 'lodash/defaults';
-import each from 'lodash/each';
-import _escape from 'lodash/escape';
-import extend from 'lodash/extend';
-import has from 'lodash/has';
-import invoke from 'lodash/invoke';
-import isArray from 'lodash/isArray';
-import isEmpty from 'lodash/isEmpty';
-import isEqual from 'lodash/isEqual';
-import isFunction from 'lodash/isFunction';
-import isObject from 'lodash/isObject';
-import isRegExp from 'lodash/isRegExp';
-import isString from 'lodash/isString';
-import iteratee from 'lodash/iteratee';
-import keys from 'lodash/keys';
-import map from 'lodash/map';
-import matches from 'lodash/matches';
-import once from 'lodash/once';
-import pick from 'lodash/pick';
-import result from 'lodash/result';
-import size from 'lodash/size';
-import some from 'lodash/some';
-import uniqueId from 'lodash/uniqueId';
+const bind = require('lodash/bind');
+const bindAll = require('lodash/bindAll');
+const clone = require('lodash/clone');
+const create = require('lodash/create');
+const defaults = require('lodash/defaults');
+const each = require('lodash/each');
+const _escape = require('lodash/escape');
+const extend = require('lodash/extend');
+const has = require('lodash/has');
+const invoke = require('lodash/invoke');
+const isArray = require('lodash/isArray');
+const isEmpty = require('lodash/isEmpty');
+const isEqual = require('lodash/isEqual');
+const isFunction = require('lodash/isFunction');
+const isObject = require('lodash/isObject');
+const isRegExp = require('lodash/isRegExp');
+const isString = require('lodash/isString');
+const iteratee = require('lodash/iteratee');
+const keys = require('lodash/keys');
+const map = require('lodash/map');
+const matches = require('lodash/matches');
+const once = require('lodash/once');
+const pick = require('lodash/pick');
+const result = require('lodash/result');
+const size = require('lodash/size');
+const some = require('lodash/some');
+const uniqueId = require('lodash/uniqueId');
 
-
-export default {
+// Don't use `export default {...}` because `lodash` uses `require(...)`
+module.exports = {
   any: some,
   bind,
   bindAll,
