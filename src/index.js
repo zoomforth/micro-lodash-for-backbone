@@ -56,5 +56,6 @@ module.exports = {
   result,
   size,
   some,
+  sortBy,
   uniqueId
 };

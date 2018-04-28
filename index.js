@@ -58,5 +58,6 @@ module.exports = {
   result: result,
   size: size,
   some: some,
+  sortBy: sortBy,
   uniqueId: uniqueId
 };
