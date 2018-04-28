@@ -6,6 +6,9 @@ const defaults = require('lodash/defaults');
 const each = require('lodash/each');
 const _escape = require('lodash/escape');
 const extend = require('lodash/extend');
+const filter = require('lodash/filter');
+const find = require('lodash/find');
+const first = require('lodash/first');
 const groupBy = require('lodash/groupBy');
 const has = require('lodash/has');
 const invoke = require('lodash/invoke');
@@ -23,6 +26,7 @@ const map = require('lodash/map');
 const matches = require('lodash/matches');
 const once = require('lodash/once');
 const pick = require('lodash/pick');
+const reject = require('lodash/reject');
 const result = require('lodash/result');
 const size = require('lodash/size');
 const some = require('lodash/some');
@@ -40,6 +44,9 @@ module.exports = {
   each,
   'escape': _escape, // escape is a protected var
   extend,
+  filter,
+  find,
+  first,
   groupBy,
   has,
   invoke,
@@ -57,6 +64,7 @@ module.exports = {
   matches,
   once,
   pick,
+  reject,
   result,
   size,
   some,
