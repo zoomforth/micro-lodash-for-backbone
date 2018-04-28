@@ -1,6 +1,7 @@
 const bind = require('lodash/bind');
 const bindAll = require('lodash/bindAll');
 const clone = require('lodash/clone');
+const countBy = require('lodash/countBy');
 const create = require('lodash/create');
 const defaults = require('lodash/defaults');
 const each = require('lodash/each');
@@ -39,6 +40,7 @@ module.exports = {
   bind,
   bindAll,
   clone,
+  countBy,
   create,
   defaults,
   each,
