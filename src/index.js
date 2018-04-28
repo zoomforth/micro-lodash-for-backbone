@@ -1,4 +1,4 @@
-import any from 'lodash/any';
+import some from 'lodash/some';
 import bind from 'lodash/bind';
 import bindAll from 'lodash/bindAll';
 import clone from 'lodash/clone';
@@ -23,7 +23,7 @@ import uniqueId from 'lodash/uniqueId';
 
 
 export default {
-  any,
+  any: some,
   bind,
   bindAll,
   clone,
@@ -44,5 +44,6 @@ export default {
   once,
   pick,
   result,
+  some,
   uniqueId
 }

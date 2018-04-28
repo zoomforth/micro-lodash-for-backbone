@@ -4,9 +4,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _any = require('lodash/any');
+var _some = require('lodash/some');
 
-var _any2 = _interopRequireDefault(_any);
+var _some2 = _interopRequireDefault(_some);
 
 var _bind = require('lodash/bind');
 
@@ -95,7 +95,7 @@ var _uniqueId2 = _interopRequireDefault(_uniqueId);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = {
-  any: _any2.default,
+  any: _some2.default,
   bind: _bind2.default,
   bindAll: _bindAll2.default,
   clone: _clone2.default,
@@ -116,5 +116,6 @@ exports.default = {
   once: _once2.default,
   pick: _pick2.default,
   result: _result2.default,
+  some: _some2.default,
   uniqueId: _uniqueId2.default
 };
