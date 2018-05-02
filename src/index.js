@@ -12,6 +12,7 @@ const find = require('lodash/find');
 const first = require('lodash/first');
 const groupBy = require('lodash/groupBy');
 const has = require('lodash/has');
+const indexOf = require('lodash/indexOf');
 const invoke = require('lodash/invoke');
 const isArray = require('lodash/isArray');
 const isEmpty = require('lodash/isEmpty');
@@ -51,6 +52,7 @@ module.exports = {
   first,
   groupBy,
   has,
+  indexOf,
   invoke,
   isArray,
   isEmpty,
